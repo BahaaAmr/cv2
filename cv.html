@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="font/fontawesome/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            width: 20vh;
+            height: 20vh;
+            float: right;
+            border-radius: 50%;
+            margin-right: 80px;
+            border: 3px solid #050505;
+        }
+        .container {
+            width: 40%;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 10px;
+            background-color: #696969;
+            padding: 40px;
+            transition: .5s ease;
+        }
+        h1:hover{
+            background-color: #050505;
+            color:#fff;
+        }
+        .personal-details,
+        .skills,
+        .education,
+        .experience {
+            margin-bottom: 20px;
+        }
+        .personal-details h2,
+        .skills h2,
+        .education h2,
+        .experience h2 {
+            margin-bottom: 10px;
+        }
+        .personal-details i{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 15px;
+        }
+        .personal-details i a{
+            margin-left: 10px;
+            font-weight: 500;
+            text-decoration: none;
+            color: #050505;
+        }
+        .skills ul,
+        .education ul,
+        .experience ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills ul li,
+        .education ul li,
+        .experience ul li {
+            font-weight: 500;
+            margin-bottom: 10px;
+            transition: .5s ease-in;
+        }
+        .skills ul li:nth-child(1){
+            width: 200px;
+        }
+        .skills ul li:nth-child(2){
+            width: 180px;
+        }
+        .skills ul li:nth-child(3){
+            width: 150px;
+        }
+        .skills ul li:nth-child(4){
+            width: 50px;
+        }
+        .skills ul li:hover{
+            background-color: #696969;
+            color: #fff;
+            padding: 8px;
+        }
+        .skills i{
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 15px;
+        }
+        .skills i a{
+            text-decoration: none;
+            margin-left: 10px;
+            font-weight: 700;
+            color: #000000;
+            transition: .5s;
+        }
+        .skills i a:hover{
+            background-color: #696969;
+            color: #fff;
+            padding: 2px;
+        }
+        @media screen and (min-width: 480px) {
+            .img {width: 200px; float: left;}
+            .img {margin-left: 216px;}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My CV</h1>
+        <img src="me.jpg" alt="">
+        <div class="personal-details">
+            <h2>Personal Details</h2>
+            <i class="fal fa-user"><a>Name: Bahaa Amr</a></i>
+            <i class="fal fa-phone"><a>Phone: +20 01092939125</a></i>
+            <i class="fal fa-phone"><a>Phone other: +20 01553250208</a></i>
+            <i class="fal fa-envelope"><a href="https://mail.google.com/mail/u/0/#inbox">Email: bahaaamr29@gmail.com</a></i>
+            <i class="fal fa-home"><a>Address: 8 El nahda Abd Elmanem Reyad St, Elwraaq, Elgiza , EGY</a></i>    
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+                <i class="fab fa-github-square"><a href="https://bahaaamr.github.io/dom/Change%20Images.html">simple project 1</a></i>
+                <i class="fab fa-github-square"><a href="https://bahaaamr.github.io/Login-Register/auth-temp.html">simple project 2</a></i>
+                <i class="fab fa-github-square"><a href="https://bahaaamr.github.io/youtube/Youtube.html">simple project 3</a></i>
+                <i class="fab fa-github-square"><a href="https://bahaaamr.github.io/QR-code/">simple project 4</a></i>
+                <i class="fab fa-github-square"><a href="https://bahaaamr.github.io/web-design/">simple project 5</a></i>
+                <i class="fab fa-github-square"><a href="https://bahaaamr.github.io/pro/dom.html">simple project 6</a></i>
+        </div>
+        <div class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Management Information Systems, Al-Alsun Higher Institute, 2019-2022</li>
+                <li>Diploma in Front end , 2023-now</li>
+                <li>Diploma in Graphic Design, 2022</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
